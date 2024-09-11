@@ -44,6 +44,7 @@ nav {
     justify-content: space-around;
     gap: 32em;
     align-items: center;
+    width: 100vw;
 }
 
 nav > h1 {
@@ -76,6 +77,7 @@ main{
     height: 75vh;
     display: flex;
     flex-direction: row;
+    width: 100vw;
 }
 
 .hero {
@@ -87,6 +89,7 @@ main{
     gap: 1em;
     margin-left: 2em;
     color: var(--color5);
+    width: 100vw;
 }
 
 .hero > h1 {
@@ -167,6 +170,7 @@ footer > h3 {
 
 footer > img {
     width: 150px;
+    
 }
 
 .US-logo {
