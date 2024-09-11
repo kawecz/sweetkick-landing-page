@@ -1,8 +1,11 @@
 @media screen and (max-width:1380px) {
+    .hero {
+        height: 70vh;
+    }
 
     .hero-image > img {
-        width: 450px;
-        margin-left: -5em;
+        width: 350px;
+        margin-left: -11em;
     }
 
     footer > h3 {
@@ -15,10 +18,11 @@
 }
 
 @media screen and (max-width:1205px) {
-   
-    .hero-image > img {
-        display: none;
+    .hero {
+        height: 75vh;
     }
+
+ 
 
     footer > h3 {
         margin-left: 3em;
@@ -33,6 +37,7 @@
 @media screen and (max-width:980px) {
     .hero {
         margin: auto;
+        height: 70vh;
     }
     
     .hero-image {
@@ -56,6 +61,9 @@
 
 @media screen and (max-width:860px) {
 
+    .hero {
+        height: 80vh;
+    }
 
     .hero-image {
         display: none;
@@ -86,6 +94,7 @@
 
     .hero > h1 {
         font-size: 25pt;
+        width: 350px;
     }
 
     .hero > p {
@@ -93,26 +102,51 @@
     }
 
     .rating {
-        margin-right: -13em;
+        font-size: 14pt;
     }
 
     .rating-free {
-        margin-left: -15em;
+        margin-left: -18em;
+        font-size: 11pt;
     }
-
+   
+   
     footer {
         font-size: 10px;
     }
 }
 
-@media screen and (max-width:540px) {
+@media screen and (max-width:620px) {
     .hero > h1 {
         font-size: 25pt;
         width: 400px;
     }
 
+
     footer {
         font-size: 2pt;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .rating {
+        margin-left: 5em;
+    }
+
+    .rating-free {
+        font-weight: 600;
+        margin-right: -30px;
+        font-size: 10pt;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .rating {
+        margin-left: 150px;
+    }
+
+    .rating-free { 
+        font-size: 7pt;
     }
 }
 
