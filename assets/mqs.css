@@ -85,12 +85,12 @@
     }
 
     .hero {
-        width: 450px;
-        height: 400px;
+        width: 100vw;
+        height: 80vh;
     }
 
     .hero > h1 {
-        font-size: 20pt;
+        font-size: 25pt;
     }
 
     .hero > p {
@@ -112,11 +112,12 @@
 
 @media screen and (max-width:540px) {
     .hero > h1 {
-        font-size: 14pt;
+        font-size: 30pt;
+        width: 400px;
     }
 
     footer {
-        font-size: 2pt;
+        font-size: 4pt;
     }
 }
 
