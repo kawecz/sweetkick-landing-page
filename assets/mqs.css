@@ -17,8 +17,7 @@
 @media screen and (max-width:1205px) {
    
     .hero-image > img {
-        width: 350px;
-        margin-left: -10em;
+        display: none;
     }
 
     footer > h3 {
@@ -58,10 +57,9 @@
 @media screen and (max-width:860px) {
 
 
-    nav {
-        font-size: 0;
+    .hero-image {
+        display: none;
     }
-
     footer {
         margin-top: 2em;
         font-size: 10pt;
@@ -80,9 +78,6 @@
 }
 
 @media screen and (max-width:690px) {
-    body {
-        overflow: hidden;
-    }
 
     .hero {
         width: 100vw;
