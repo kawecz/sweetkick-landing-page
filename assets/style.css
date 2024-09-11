@@ -132,7 +132,6 @@ main{
 
 .rating > p {
     text-align: center;
-    margin-left: -em;
     font-size: 10pt;
 }
 
